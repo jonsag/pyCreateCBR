@@ -31,6 +31,6 @@ for option, argument in myopts:
         
 dirs = findDirs(searchPath, verbose)
 for myDir in dirs:
-    print myDir
+    print(myDir)
     images = findImages(myDir, verbose)
     createCBR(searchPath, myDir, images, verbose)
